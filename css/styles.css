@@ -1,0 +1,102 @@
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+h1 {
+    color: #343a40;
+}
+
+/* Ajuste de color y espaciado */
+header, footer {
+    background-color: #343a40;
+    color: #ffffff;
+}
+
+.navbar-nav .nav-link {
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd700; /* Color dorado para resaltar los links */
+}
+
+footer a {
+    color: #ffd700;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+
+/* Tamaño fijo de las tarjetas */
+.card {
+    width: 100%;
+    max-width: 300px; /* Ancho máximo para la tarjeta */
+    min-height: 450px; /* Altura mínima para mantener consistencia */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Ajuste de las imágenes en el carrusel */
+.card img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Limitar la altura de la imagen para evitar distorsión */
+    object-fit: cover; /* Evitar que la imagen se deforme */
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 200px; /* Limita la altura de la imagen */
+    object-fit: cover;
+}
+
+/* Ajuste de contenido dentro de la tarjeta */
+.card-body {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Ajuste de título y descripción */
+.card-title {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.card-text {
+    font-size: 1em;
+    color: #666;
+}
+
+/* Espaciado adicional en los campos del formulario */
+form .form-control {
+    border-radius: 5px;
+    padding: 10px;
+}
+
+form button {
+    width: 100%;
+    font-weight: bold;
+    padding: 10px;
+}
+
+/* Estilo de los enlaces de redes sociales en la sección de información */
+.container a.text-dark {
+    color: #343a40;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.container a.text-dark:hover {
+    color: #007bff;
+}
